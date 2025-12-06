@@ -4,7 +4,7 @@ This project aims to control a linear actuator based on Roll/Pitch angles using 
 
 ## Current Status
 
-**Work in Progress:** The motor control code (for L298N) is **not added yet**.
+**Work in Progress:** The motor control code (for BTS7960) is **not added yet**.
 Currently, only the sensor readings, LCD interface, and user inputs are implemented.
 
 ## Features
