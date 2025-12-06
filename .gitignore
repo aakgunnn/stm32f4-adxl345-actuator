@@ -1,0 +1,29 @@
+# --- Derleme Çıktıları (Gereksizler) ---
+Debug/
+Release/
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.su
+*.list
+
+# --- IDE Ayarları ---
+.settings/
+.mxproject
+*.launch
+.cproject
+.project
+# Not: .cproject ve .project dosyalarını silersen Eclipse proje yapısı bozulur.
+# Eğer sadece kod görünsün diyorsan silebilirsin, ama proje olarak açılsın istiyorsan başına # koy.
+
+# --- Kütüphaneler (En çok yer kaplayanlar) ---
+Drivers/
+Middlewares/
+
+# --- RTOS Geçici Dosyaları (Varsa) ---
+# Genellikle Middlewares içindedir ama bazen dışarı taşabilir
+*.freeRTOS
+
