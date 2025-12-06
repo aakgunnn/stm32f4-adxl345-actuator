@@ -20,7 +20,7 @@ Currently, only the sensor readings, LCD interface, and user inputs are implemen
 - ADXL345 Accelerometer
 - 16x2 I2C LCD
 - Potentiometer (10k)
-- _(Planned)_ L298N Motor Driver & Linear Actuator
+- _(Planned)_ BTS7960 Motor Driver & Linear Actuator
 
 ## Credits
 
